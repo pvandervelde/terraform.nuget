@@ -11,7 +11,7 @@ In some cases the NuGet package will have a fourth number, e.g. `0.12.26.2`. In 
 
 ## How to build
 
-During the build process the Telegraf binary with the version specified in the `version.xml` file will be downloaded, the file hash compared and then unzipped and placed in a NuGet package.
+During the build process the Terraform binary with the version specified in the `version.xml` file will be downloaded, the file hash compared and then unzipped and placed in a NuGet package.
 
 At the end of the build process the NuGet package can be found in the `build/deploy` folder in the workspace.
 
